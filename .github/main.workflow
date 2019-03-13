@@ -5,8 +5,8 @@ workflow "Build Docker Tool Mixins" {
 
 action "Lint" {
   uses = "docker://koalaman/shellcheck-alpine:stable"
-  runs = "shellcheck"
-  args = "alias_list.sh"
+  runs = "sh"
+  args = "ci/entrypoint_lint.sh"
 }
 
 action "Build" {
