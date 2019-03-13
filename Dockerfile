@@ -11,4 +11,7 @@ COPY ./tools ./tools
 RUN /bin/bash ./main.sh
 # RUN rm -rf ./lib ./tools
 
+# for man
+ENV PAGER less
+
 ENTRYPOINT ["ls", "-1", "./tools"]
