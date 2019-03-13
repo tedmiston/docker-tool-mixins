@@ -2,8 +2,7 @@ SHELL=bash
 
 .PHONY: build
 build:
-	# docker build --no-cache -t foo .
-	docker build -t foo .
+	docker build --no-cache -t foo .
 
 .PHONY: run
 run:
@@ -11,8 +10,6 @@ run:
 
 .PHONY: debug
 debug:
-# 	docker run --rm -it --entrypoint=sh foo
-# 	docker run --rm -it foo
 	docker run --rm -it --entrypoint=/bin/bash foo
 
 .PHONY: lint
