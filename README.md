@@ -36,6 +36,8 @@ r  # run
 l  # lint
 ```
 
+For development convenience, you can chain aliases like `b && r`.
+
 To list all available aliases: `./alias_list.sh`
 
 To add a new tool, look at an already configured tool in `/tools`.  A minimal example is `curl`.  Some fancier examples are `bats` and `shellcheck`.
