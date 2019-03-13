@@ -3,7 +3,7 @@ FROM alpine
 RUN apk --quiet upgrade && \
     apk --quiet add bash
 
-WORKDIR /dt
+WORKDIR /dtm
 
 COPY ./main.sh .
 COPY ./lib ./lib

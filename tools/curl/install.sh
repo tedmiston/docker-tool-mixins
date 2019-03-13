@@ -2,7 +2,7 @@
 
 set -euo pipefail
 
-source '/dt/lib/install.sh'
+source '/dtm/lib/install.sh'
 
 readonly pkgs=(curl)
 apk_add pkgs[@]

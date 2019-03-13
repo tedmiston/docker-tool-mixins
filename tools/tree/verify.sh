@@ -2,7 +2,7 @@
 
 set -euo pipefail
 
-source '/dt/lib/verify.sh'
+source '/dtm/lib/verify.sh'
 
 readonly verify_proc=$(infer_version_command)
 readonly tree_stdout="$(${verify_proc})"

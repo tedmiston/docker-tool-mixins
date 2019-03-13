@@ -2,7 +2,7 @@
 
 set -euo pipefail
 
-source '/dt/lib/utils.sh'
+source '/dtm/lib/utils.sh'
 
 function infer_version_command() {
     local -r tool_name=$(get_tool_name)

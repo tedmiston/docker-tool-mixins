@@ -2,7 +2,7 @@
 
 set -euo pipefail
 
-source '/dt/lib/install.sh'
+source '/dtm/lib/install.sh'
 
 # https://stackoverflow.com/questions/39055223/how-to-get-man-working-in-an-alpine-linux-docker-container
 

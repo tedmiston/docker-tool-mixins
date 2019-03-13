@@ -2,7 +2,7 @@
 
 set -euo pipefail
 
-source '/dt/lib/install.sh'
+source '/dtm/lib/install.sh'
 
 function find_tools() {
     local -r tools_dir=${1}

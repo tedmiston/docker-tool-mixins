@@ -2,7 +2,7 @@
 
 set -euo pipefail
 
-source '/dt/lib/core.sh'
+source '/dtm/lib/core.sh'
 
 readonly TOOLS_DIR=./tools
 readonly INSTALL_DOCS=false
