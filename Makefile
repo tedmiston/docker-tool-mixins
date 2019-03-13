@@ -2,11 +2,11 @@ SHELL=bash
 
 .PHONY: build
 build:
-	docker build --no-cache -t foo .
+	docker build --no-cache -t tedmiston/docker-tool-mixins .
 
 .PHONY: run
 run:
-	docker run --rm -it --entrypoint=/bin/bash foo
+	docker run --rm -it --entrypoint=/bin/bash tedmiston/docker-tool-mixins
 
 .PHONY: lint
 lint:
