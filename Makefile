@@ -6,10 +6,6 @@ build:
 
 .PHONY: run
 run:
-	docker run --rm foo
-
-.PHONY: debug
-debug:
 	docker run --rm -it --entrypoint=/bin/bash foo
 
 .PHONY: lint
