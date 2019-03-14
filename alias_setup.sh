@@ -1,4 +1,3 @@
-#!/usr/bin/env bash
 
 alias b='make build'
 alias r='make run'
