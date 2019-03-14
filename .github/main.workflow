@@ -11,6 +11,6 @@ action "Lint" {
 
 action "Build" {
   uses = "actions/docker/cli@master"
-  args = "build -t tedmiston/docker-tool-mixins ."
+  args = "build --no-cache -t tedmiston/docker-tool-mixins ."
   needs = ["Lint"]
 }
